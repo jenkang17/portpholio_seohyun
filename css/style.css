@@ -1,6 +1,7 @@
 /*reset*/
 body,h1,h2,h3,h4,p,div,ul,li,dl,dt,dd{margin:0;padding:0;}
-h3{font-family: "open sans condensed"; color: #333;font-weight: 700; font-size: 30px;}
+h2{font-family: "open sans condensed"; color: #333;font-weight: 700; font-size: 38px;line-height: 38px;margin-bottom: 10px;}
+h3 {font-family:"Noto Sans CJK KR", "나눔고딕", "맑은 고딕", "돋움";font-size: 22px;line-height: 20px; padding-left: 20px; background: url(../images/title_dot.png) no-repeat left;}
 h4 {font-family: "open sans condensed"; color: #333;font-size: 22px; line-height: 20px;margin-bottom: 10px;}
 body{font-family:"Noto Sans CJK KR", "나눔고딕", "맑은 고딕", "돋움";font-size:14px;letter-spacing: 0.01em;}
 a{text-decoration:none;color:#222}
@@ -9,22 +10,24 @@ address{font-style:normal}
 body {background: #eeeeec;}
 header {height: 50px;border: 1px solid red;width: 74%;box-sizing: border-box;}
 header nav{border: 1px solid red;height: 100%;}
-.wrap {width: 70%; border: 1px solid red;margin: auto;}
-.wrap section{border:1px solid red;width: 74%; background: #fff;box-sizing: border-box;border-radius: 5px;margin-bottom: 25px;padding: 25px;}
-.wrap section h3 {margin-bottom: 25px;line-height: 20px;}
+.wrap {width: 70%;margin: auto;}
+.wrap section{width: 74%; background: #fff;box-sizing: border-box;border-radius: 5px;margin-bottom: 25px;padding: 25px;}
+.wrap section h3 {margin-bottom: 25px;}
 .wrap .main {padding: 145px 0 145px 145px;overflow: hidden;}
 .wrap .main .main_bg {width: 350px;height: 466px; background: url(../images/bg.jpg) no-repeat;float: left;margin-right: 50px;}
 .wrap .main ul { float: left;margin-top: 174.5px;text-indent: -9999px;}
 .wrap .main ul .title {width: 186px;height: 51px; background: url(../images/title.jpg) no-repeat;margin-bottom: 50px;}
 .wrap .main ul .sub_title{width: 235px;height: 14px; background: url(../images/sub_title.jpg) no-repeat;}
-.wrap .Ability {}
-.wrap .Ability .skill {font-size: 0;}
+.wrap .Ability h2{margin-bottom: 50px;}
+.wrap .Ability img{width:100%; height: auto;}
+/* .wrap .Ability .skill {font-size: 0;}
 .wrap .Ability .skill li {width: 15%;font-size: 16px;margin-bottom: 20px;}
 .wrap .Ability .skill li p {height: 6px; background: #e52226; margin-top: 5px;}
 .wrap .Ability .skill .js p {width: 70%;}
-.wrap .Ability .skill .illur {margin-right: 0;}
+.wrap .Ability .skill .illur {margin-right: 0;} */
 .wrap .excel_beef {overflow: hidden;} 
 .wrap .excel_beef h3 {margin-bottom: 10px;}
+.wrap .excel_beef > div {margin-bottom: 80px;}
 .wrap .excel_beef .excel_link {margin-bottom: 25px;}
 .wrap .excel_beef .excel_link a { color: #e52226;}
 .wrap .excel_beef .excel_sec01 {overflow: hidden;}
@@ -35,13 +38,25 @@ header nav{border: 1px solid red;height: 100%;}
 .wrap .excel_beef .excel_sec01 .excel_left .excel_color span {margin-bottom: 10px;display: inline-block;}
 .wrap .excel_beef .excel_sec01 .excel_left .excel_color .color_chip {width: 310px;height:70px; background: url(../images/color.jpg) no-repeat;margin-bottom: 25px;}
 .wrap .excel_beef .excel_sec01 .excel_left .excel_font {margin-bottom: 100px; line-height: 14px;}
-.wrap .excel_beef .excel_sec01 .excel_right { position: relative;overflow: hidden;float: right;width: 64.25%;margin-bottom: 80px;}
+.wrap .excel_beef .excel_sec01 .excel_right { position: relative;overflow: hidden;float: right;width: 64.25%;}
 .wrap .excel_beef .excel_sec01 .excel_right .pc_bg {width: 100%;}
 .wrap .excel_beef .excel_sec01 .excel_right > p {position: absolute;top: 4%;left: 4%; bottom:36%;width: 92%;overflow: auto;}
 .wrap .excel_beef .excel_sec01 .excel_right > p > img {width: 100%;} 
-.wrap .excel_beef .excel_sec02 {}
+.wrap .excel_beef .excel_sec02 .site_map{margin-bottom: 80px;}
 .wrap .excel_beef .excel_sec02 img {width: 100%;height: auto;}
-.wrap .excel_beef .excel_sec02 .excel_main {width: 307px;height:630px ;background: url(../images/excel_300main.jpg) no-repeat;}
+.wrap .excel_beef .excel_sec06  {margin-bottom: 50px;}
+.wrap .excel_beef .excel_sec06 h4 {font-size: 24px;line-height: 24px;padding-left: 20px; background: url(../images/title_dot.png) no-repeat left 5px;margin-bottom: 20px;}
+.wrap .excel_beef .excel_sec06 > img {margin-bottom: 50px;}
+.wrap .excel_beef .excel_sec06 > img:last-child {margin: 0;}
+.wrap .excel_beef .excel_sec06 .excel_link_bt {background: #e52226;padding: 10px;border-radius: 5px;font-weight: bold;color: #fff;}
+.wrap .excel_beef div .check_list {margin-bottom: 25px;}
+.wrap .excel_beef div .check_list li:first-child {font-size: 18px;background: none;padding: 0;text-align: center;}
+.wrap .excel_beef div .check_list li {padding-left: 25px; background: url(../images/check.png) no-repeat left;margin-bottom: 5px;}
+.wrap .excel_beef div .check_list li:last-child{margin-bottom: 0;}
+.wrap .excel_beef div img {width: 100%;height: auto;}
+.wrap .reponsive {text-align: center;}
+.wrap .reponsive h2{margin-bottom: 25px;text-align: left;}
+.wrap .reponsive img {width: 100%;height: auto;}
 
 aside {width: 17%;position: fixed;left: 68%;top: 50px;}
 aside .career {margin-bottom: 25px; background: #fff; border-radius: 5px;}
